@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
+
+* {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 1000;
+}
+
+audio{
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 170px;
+    height: 25px;
+}
+
+body{
+    font-weight: 1000;
+    background-color: black;
+    overflow-y: hidden;
+}
+td input, td{
+    color: wheat;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    color: #c537e6;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}

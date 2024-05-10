@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Purole Rain | stark team</title>
+    
+</head>
+<body>
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <div class="inputs" style="position: absolute; left: 0; top: 0;padding: 10px; color:purple">
+        <table>
+            <tr>
+                <td>
+                    Drop Count
+                </td>
+                <td>
+                    <input type="number" onchange="changeCount(this.value)" min="1" value="500"/>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Drop width
+                </td>
+                <td>
+                    <input type="number" onchange="changeDropWidth(this.value)" min="1" value="2">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Drop Height
+                </td>
+                <td>
+                    <input type="number" onchange="changeDropHeight(this.value)" min="1" value="15">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gravity
+                </td>
+                <td>
+                    <input type="number" onchange="changeGravity(this.value)" min="1" value="10">
+                </td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>
+                    <input type="color" value="#c537E6" id="color">
+                </td>
+            </tr>
+            <tr>
+                <td>Background Color</td>
+                <td>
+                    <input type="color" value="#000000" id="backgroundColor">
+                </td>
+            </tr>
+            <tr>
+                <td>Eminem - Stan</td>
+                <td>
+                    <audio controls controlsList="nodownload noplaybackrate">
+                        <source src="stan.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element
+                    </audio>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        Made with ❤️ by
+        <a id="name" href="https://www.youtube.com/channel/UCI4K55XFGR9GkGWDiOpH_MQ/" target="_blank">
+            Stark team
+        </a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
